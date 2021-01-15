@@ -19,7 +19,7 @@ int main() {
 				// increment if the number is even
 				cnt++;
 			} else {
-				// otherwise, get the sum between the odd and the number of even numbers at this point
+				// otherwise, get the sum of the numbers of odd and even at this point
 				ans += cnt;
 			}
 		}
