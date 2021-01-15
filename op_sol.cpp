@@ -18,8 +18,8 @@ int main() {
 			if (a % 2 == 0) {
 				// increment if the number is even
 				cnt++;
-			} else {
-				// otherwise, get the sum of the numbers of odd and even at this point
+			} else {                                                                                
+				// otherwise, add the corresponding even numbers pair for each odd number
 				ans += cnt;
 			}
 		}
